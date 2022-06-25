@@ -4,13 +4,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Quote Gen</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <title>Quote Generator</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  goodbye world heh
+  <div class="container" id="container">
+    <!--     Quote -->
+    <div class="quoteText">
+      <i class="fas fa-quote-left">
+        <span id="quote">how you do one thing is how you do anything.</span>
+      </i>
+    </div>
+    <!--     Author -->
+    <div class="quoteAuthor">
+      <span id="author">
+        Unknown
+      </span>
+    </div>
+    <!--   Buttons -->
+    <div class="buttonContainer">
+      <button class="twitterButton" id="twitter" title="Tweet This!">
+        <i class="fa-brands fa-twitter"></i>
+      </button>
+      <button id="newQuote">
+        New Quote
+      </button>
+    </div>
+  </div>
+
   <script src="script.js"></script>
 
 
